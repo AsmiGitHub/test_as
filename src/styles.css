@@ -2,10 +2,11 @@
     font-family: Monaco, sans-serif;
   }
   
-  body{
-    border: 1px solid;
-    width: 93%;
-   
+  #root{
+    padding-top: 5px;
+    padding-bottom: 17px;
+    padding-left: 5px;
+    width: 90%;
   }
   .App {
    margin: auto;
