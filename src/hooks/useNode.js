@@ -9,7 +9,7 @@ If they match, a new node object is created with a unique id (using new Date().g
 the provided item name, and an empty items array. 
 The new node is then pushed into the tree node's items array. 
 Finally, the updated tree is returned. */      
-      if (tree.id === commentId && item != "") {
+      if (tree.id === commentId && item !== "") {
         tree.items.push({
           id: new Date().getTime(),
           name: item,

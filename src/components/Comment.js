@@ -32,8 +32,8 @@ const Comment = ({
   const [showInput, setShowInput] = useState(false);
   const [expand, setExpand] = useState(false);
   const inputRef = useRef(null);
-  const [text, setText] = useState(initialText);
-  const isTextareaDisabled = text.length === 0;
+   // const [text, setText] = useState(initialText);
+  //const isTextareaDisabled = text.length === 0;
   const fiveMinutes = 300000;
   const createdAt = moment(comment.createdAt).format('DD/MM/YYYY');
 
@@ -126,7 +126,7 @@ Within this <div>, there is more conditional rendering.
           <>
           <div className="comment">
             <div className="comment-image-container">
-              <img src="/user-icon.png" />
+              <img alt="" src="/user-icon.png" />
             </div></div>
             
            
