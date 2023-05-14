@@ -34,7 +34,7 @@ const Comment = ({
   const inputRef = useRef(null);
    // const [text, setText] = useState(initialText);
   //const isTextareaDisabled = text.length === 0;
-  const fiveMinutes = 300000;
+  //const fiveMinutes = 300000;
   const createdAt = moment(comment.createdAt).format('DD/MM/YYYY');
 
 
