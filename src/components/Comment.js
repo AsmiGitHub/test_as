@@ -104,7 +104,7 @@ Within this <div>, there is more conditional rendering.
         {comment.id === 1 ? (
           <>
           
-          <form>
+          <form className="commentForm">
             <textarea
               type="text"
               className="comment-form-textarea"

@@ -2,9 +2,7 @@
 import React from "react";
 const Header = () => {
     return (
-  
         <div>
-        
             <div className="HeaderDiv"> 
             <h3>Welcome to the Comment App by Ashmita</h3>
             </div>

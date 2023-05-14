@@ -95,11 +95,11 @@
 }
 
 .comment-form-textarea {
-  width: 500px;
-  height: 80px;
+  height: 50px;
   margin-bottom: 8px;
   margin-top: 8px;
   border: 1px solid rgb(107, 114, 12);
+  width: 90%;
 }
 
 .comment-form-button {
@@ -197,4 +197,8 @@
   width: 40px;
   padding-left: 5px;
   margin-top: 5px;
+}
+
+.commentForm{
+  width: 100%;
 }

@@ -57,16 +57,13 @@ Finally, the setCommentsData function is called with temp as an argument to upda
   };
 /**This block of code represents the JSX (JavaScript XML) returned by the App component. 
  * It renders the Comment component, passing several props to it:
-
 handleInsertNode: The handleInsertNode function is passed to the Comment component, allowing it to invoke the function when a new node needs to be inserted.
 handleEditNode: The handleEditNode function is passed to the Comment component, enabling it to invoke the function when a node needs to be edited.
 handleDeleteNode: The handleDeleteNode function is passed to the Comment component, enabling it to invoke the function when a node needs to be deleted.
 comment: The commentsData state variable is passed to the Comment component, providing it with the current tree structure to render and display.
 The returned JSX is wrapped in a <div> element with the className of "App", which allows for applying styling to the component.
-
 Finally, the App component is exported as the default export, making it available for use in other parts of the application. */
   return (
-    
     <div className="App">
     <Header/>
       <Comment
