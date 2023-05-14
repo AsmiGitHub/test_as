@@ -6,7 +6,7 @@ const Header = () => {
         <div>
         
             <div className="HeaderDiv"> 
-            <h3>Welcome to the Comment App</h3>
+            <h3>Welcome to the Comment App Guys</h3>
             </div>
             </div>
 )};
