@@ -1,4 +1,4 @@
-/**These lines import necessary dependencies and components for the application. 
+/** Import necessary dependencies and components for the application. 
  * useState is imported from the React library to manage state within a functional component. 
  * Comment is imported from the ./components/Comment file, which presumably contains the component responsible for rendering and manipulating comments. 
  * useNode is imported from the ./hooks/useNode file, which provides the functions for manipulating the tree structure. 
@@ -9,16 +9,16 @@ import useNode from "./hooks/useNode";
 import Header from "./components/Header";
 import "./styles.css";
 
-/**This line initializes the comments object, which represents the root of the tree structure. 
+/** Initializes the comments object, which represents the root of the tree structure. 
  *It has an id property set to 1 and an empty items array. This structure will be managed by the application. */
 const comments = {
   id: 1,
   items: [],
 };
 
-/**This line defines the App functional component using arrow function syntax */
+/**The App functional component using arrow function syntax */
 const App = () => {
-/**This line uses the useState hook to create a state variable commentsData and a function setCommentsData to update its value. 
+/**The useState hook to create a state variable commentsData and a function setCommentsData to update its value. 
    * The initial value of commentsData is set to the comments object, representing the initial state of the comments tree */
   const [commentsData, setCommentsData] = useState(comments);
 /**This line uses the useNode custom hook to initialize three variables: insertNode, editNode, and deleteNode. 

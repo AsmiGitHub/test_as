@@ -4,9 +4,8 @@ const Header = () => {
     return (
         <div>
             <div className="HeaderDiv"> 
-            <h3>Welcome to the Comment App by Ashmita</h3>
+            <h3>Welcome to the Comment App</h3>
             </div>
             </div>
 )};
-
 export default Header;
